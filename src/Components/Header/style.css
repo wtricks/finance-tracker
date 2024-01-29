@@ -1,0 +1,46 @@
+.navbar{
+    background-color: var(--theme);
+    padding: 0.5rem 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.navbar .logo {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 25px;
+}
+.navbar p:nth-child(2){
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.navbar p:nth-child(2):hover{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.link{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.header-right img{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}

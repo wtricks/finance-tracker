@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper,.charts-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.charts-wrapper{
+    width: 100%;
+    justify-content: space-between;
+    height: 600px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    max-width: 1200px;
+}
+.charts-wrapper > div {
+  flex: 1; /* Make each chart take equal width */
+  margin-right: 20px; /* Add margin between the charts */
+}
+
+h2 {
+  margin-bottom: 1rem;
+}

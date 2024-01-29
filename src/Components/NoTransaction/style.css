@@ -1,0 +1,19 @@
+.no-transaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.no-transaction img {
+    width: 500px;
+}
+
+.no-transaction p {
+    border: 3px solid green;
+    background-color: cadetblue;
+    color: bisque;
+    text-align: center;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --theme: #2970ff;
+    --black: #000;
+    --white: #fff;
+    --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+    
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+}
+.custom-input{
+    border: 0px;
+    border-bottom: 1px solid #000;
+    padding: 0.5rem 0rem;
+    width: 100%;
+    border-radius: 0;
+    margin-top: -1rem !important;
+}
+.custom-select ::placeholder{
+    color: rgba(0,0,0,0.5);
+}
+.custom-input :focus{
+    outline: none;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.input-flex{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 90%;
+    box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+.input-flex input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+}
+.input-flex input:focus{
+    outline: none;
+}
+.radio-options{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 1rem;
+   width: 100%;
+}
+.csv-input{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 400px;
+}
+
+.input-select{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.select-input{
+    border: 1px solid red;
+    width: 100%;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+    border-radius: 0.5rem !important;
+    padding: 0.2rem 0.5rem;
+}
+.select-input>div{
+    border: 0px solid #fff !important;
+}
