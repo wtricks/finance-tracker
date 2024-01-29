@@ -7,13 +7,13 @@ import {getFirestore, doc ,setDoc} from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAu3tXjG0-LQcpEPMGVE4_YE7h19ELBlT0",
-  authDomain: "financly-react-95962.firebaseapp.com",
-  projectId: "financly-react-95962",
-  storageBucket: "financly-react-95962.appspot.com",
-  messagingSenderId: "834901269049",
-  appId: "1:834901269049:web:b63f2e850ba1d1684e0be8",
-  measurementId: "G-BJWN1J8BHK"
+  apiKey: "AIzaSyAjpBgq4oGg-ud-GzhqLTnuN1iJKwGdYNY",
+  authDomain: "finance-tracker-39f4f.firebaseapp.com",
+  projectId: "finance-tracker-39f4f",
+  storageBucket: "finance-tracker-39f4f.appspot.com",
+  messagingSenderId: "718053316357",
+  appId: "1:718053316357:web:5cc7dbb511bb841fe6096c",
+  measurementId: "G-W221VJL46G"
 };
 
 // Initialize Firebase
